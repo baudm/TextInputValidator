@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TextInputValidator</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="label_last_name">Last Name</string>
+    <string name="label_first_name">First Name</string>
+    <string name="label_email_address">Email address</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Confirm password</string>
+</resources>
