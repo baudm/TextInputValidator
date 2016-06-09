@@ -24,7 +24,7 @@ public final class TextInputValidator {
     }
 
     private static boolean validateField(EditText field, TextInputLayout layout, Rule rule) {
-        final boolean valid = rule.isValid(field);
+        final boolean valid = rule.isValid(field.getText().toString());
         if (valid) {
             clearError(layout);
         } else {

@@ -15,7 +15,7 @@ public final class TextEqualsRule extends Rule {
     }
 
     @Override
-    public boolean isValid(EditText field) {
-        return field.getText().toString().equals(reference.getText().toString());
+    public boolean isValid(String inputText) {
+        return inputText.equals(reference.getText().toString());
     }
 }
