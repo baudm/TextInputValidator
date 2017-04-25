@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
 
 group = 'com.github.baudm'
 
@@ -11,7 +10,7 @@ android {
         minSdkVersion project.minSdkVersion
         targetSdkVersion project.targetSdkVersion
         versionCode 1
-        versionName "0.1.0"
+        versionName "0.1.1"
     }
     buildTypes {
         release {
@@ -19,6 +18,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    buildToolsVersion '25.0.0'
 }
 
 dependencies {
